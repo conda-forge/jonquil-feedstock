@@ -1,5 +1,5 @@
 {% set name = "jonquil" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/toml-f/jonquil/releases/download/v{{ version }}/jonquil-{{ version }}.tar.xz
-  sha256: 68448be7f399942e15a05ed7a149cc226a8ee81a8ce66cd68a2d01d9fc86527e
+  sha256: 4bc3f0ae47ac2e009a0dc733ad9d0f16db4dfed13b50f58b9a06bb3a579eec47
 
 build:
   number: 0
@@ -46,7 +46,6 @@ about:
     - LICENSE-MIT
   summary: >-
     JSON parser implementation for data serialization and deserialization in Fortran 
-
 extra:
   recipe-maintainers:
     - awvwgk
