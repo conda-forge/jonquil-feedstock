@@ -3,36 +3,6 @@ About jonquil-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jonquil-feedstock/blob/main/LICENSE.txt)
 
-
-About jonquil
--------------
-
-Home: https://toml-f.github.io/jonquil/
-
-Package license: Apache-2.0 OR MIT
-
-Summary: JSON parser implementation for data serialization and deserialization in Fortran 
-
-Development: https://github.com/toml-f/jonquil
-
-Documentation: https://toml-f.readthedocs.io/en/latest/how-to/jonquil/
-
-About jonquil
--------------
-
-Home: https://toml-f.github.io/jonquil/
-
-Package license: Apache-2.0 OR MIT
-
-Summary: JSON parser implementation for data serialization and deserialization in Fortran
-
-Development: https://github.com/toml-f/jonquil
-
-Documentation: https://toml-f.readthedocs.io/en/latest/how-to/jonquil/
-
-About jonquil-devel
--------------------
-
 Home: https://toml-f.github.io/jonquil/
 
 Package license: Apache-2.0 OR MIT
