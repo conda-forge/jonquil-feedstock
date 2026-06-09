@@ -10,7 +10,7 @@ source:
   sha256: 4bc3f0ae47ac2e009a0dc733ad9d0f16db4dfed13b50f58b9a06bb3a579eec47
 
 build:
-  number: 4
+  number: 5
 
 outputs:
   - name: {{ name }}
@@ -25,12 +25,9 @@ outputs:
 
     requirements:
       build:
-        - {{ stdlib('c') }}  # [unix or (win and module_abi == "flang")]
-        - {{ stdlib('m2w64_c') }}  # [win and module_abi == "gfortran"]
-        - {{ compiler('c') }}  # [unix or (win and module_abi == "flang")]
-        - {{ compiler('fortran') }}  # [unix or (win and module_abi == "flang")]
-        - {{ compiler('m2w64_c') }}  # [win and module_abi == "gfortran"]
-        - {{ compiler('m2w64_fortran') }}  # [win and module_abi == "gfortran"]
+        - {{ stdlib("c") }}
+        - {{ compiler("c") }}
+        - {{ compiler("fortran") }}
         - meson  # [module_abi == "gfortran"]
         - cmake  # [module_abi != "gfortran"]
         - ninja
@@ -76,7 +73,7 @@ about:
     - LICENSE-Apache
     - LICENSE-MIT
   summary: >-
-    JSON parser implementation for data serialization and deserialization in Fortran 
+    JSON parser implementation for data serialization and deserialization in Fortran
 
 extra:
   recipe-maintainers:
