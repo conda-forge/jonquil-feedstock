@@ -1,5 +1,5 @@
 {% set name = "jonquil" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name }}-pkg
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/toml-f/jonquil/releases/download/v{{ version }}/jonquil-{{ version }}.tar.xz
-  sha256: 1c293be96e33d2898879ce0b05c2b77cd23ab9a2bdbb851a0b24b0fb92ef587e
+  sha256: b1fd83b0185a73fec902aef4d33f204cb14016c447fe50a9a698f4777a647653
 
 build:
   number: 0
